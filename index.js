@@ -39,3 +39,8 @@ db.collection('games').get()
         })
     })
     .catch(console.error)
+
+
+// finds the doc titled frogger and updates released date:
+// db.collection('games').where('title', '==', 'Frogger').update({ released: 1982})
+
